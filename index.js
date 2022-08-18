@@ -9,13 +9,11 @@ const Issue_TestFolders = core.getInput('Issue_TestFolders');
 const comment = core.getInput('comment');
 
 console.log(vansahToken);
-// console.log(testFormat);
+console.log(testFormat);
 console.log(testPaths);
-// console.log(projectKeyonJira);
-console.log(case_key);
-console.log(log_identifier);
+console.log(Issue_TestFolders);
 console.log(comment);
-//11050
+
 
 // var bodyFormData = new FormData();
 // bodyFormData.append('file', testPaths);
