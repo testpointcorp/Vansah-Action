@@ -6,11 +6,5 @@ This plugin will help the automation framework to upload the test results genera
 
 ## Example usage
 
-uses: testpointcorp/vansah-action@v1
-with:
-  vansahToken: ${{ secrets.VANSAHTOKEN }} 
-  testFormat: "testng"
-  testPaths: "**/output/*.xml"
-  Issue_TestFolders: "JIRA_ISSUEKEY"
-  comment: "Build #223"
- 
+
+ ![image](https://user-images.githubusercontent.com/95007067/185354727-984ee6d2-1691-4312-9730-695594791c14.png)
