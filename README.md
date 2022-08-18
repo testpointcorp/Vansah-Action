@@ -62,13 +62,12 @@ A full set list of possible output values for this action.
 
 ## Vansah
 
-- [Vansah](http://vansah.com/) website
+- [Vansah](http://vansah.com/)
 - api info ---
 
 ## Developed By
 
-* Testpoint corp.
- * (https://testpoint.com.au/)
+* Testpoint corp. (https://testpoint.com.au/)
 
 ## License
 
