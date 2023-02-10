@@ -15,6 +15,3 @@ jobs:
           vansahConnectToken: ${{ secrets.VANSAHCONNECTTOKEN }}
           testFormat: "TESTNG"
           testPaths:  "testng-results.xml"
-      # Use the output from the `hello` step
-      - name: Get the output time
-        run: echo "###"
