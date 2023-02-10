@@ -17,5 +17,5 @@ outputs:
   out:
     description: 'Will Output the Message on success/failure'
 runs:
-  using: 'node18'
+  using: 'node16'
   main: 'dist/index.js'
