@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Vansah TM Test Results Importer
-        uses: action.yml # Uses an action in the root directory
+        uses: ./ # Uses an action in the root directory
         with:
           vansahConnectToken: ${{ secrets.VANSAHCONNECTTOKEN }}
           testFormat: "TESTNG"
