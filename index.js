@@ -1,6 +1,7 @@
 const core = require('@actions/core'); //ES5
 const axios = require('axios').default;
 const FormData = require('form-data');
+const fs = require('fs');
 
 const vansahConnectToken = core.getInput('vansahConnectToken');
 const testFormat = core.getInput('testFormat');
@@ -12,7 +13,7 @@ const nodeApiVersion = "v1";
 
 let bodyFormData = new FormData();
 bodyFormData.append('testFormat', testFormat);
-bodyFormData.append('testPaths', testPaths);
+bodyFormData.append('testPaths', fs.createReadStream(testPaths));
 //console.log(bodyFormData);
 
 

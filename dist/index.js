@@ -7817,6 +7817,7 @@ var __webpack_exports__ = {};
 const core = __nccwpck_require__(8021); //ES5
 const axios = (__nccwpck_require__(4093)["default"]);
 const FormData = __nccwpck_require__(446);
+const fs = __nccwpck_require__(7147);
 
 const vansahConnectToken = core.getInput('vansahConnectToken');
 const testFormat = core.getInput('testFormat');
@@ -7828,7 +7829,7 @@ const nodeApiVersion = "v1";
 
 let bodyFormData = new FormData();
 bodyFormData.append('testFormat', testFormat);
-bodyFormData.append('testPaths', testPaths);
+bodyFormData.append('testPaths', fs.createReadStream(testPaths));
 //console.log(bodyFormData);
 
 
