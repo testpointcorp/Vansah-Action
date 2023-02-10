@@ -7841,10 +7841,10 @@ axios({
     headers: { "Authorization": vansahConnectToken , "Content-Type": "multipart/form-data" },
   })
   .then(function (response) {
-    console.log(response);
+    console.log(response.data.message);
   })
-  .catch(function (error) {
-    console.log(error);
+  .catch(function (response) {
+    console.log(response.data.message);
   });
 })();
 
