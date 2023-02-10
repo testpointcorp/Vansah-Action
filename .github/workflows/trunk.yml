@@ -1,0 +1,20 @@
+on: [push]
+
+jobs:
+  TRUNK_TEST:
+    runs-on: ubuntu-latest
+    name: Sending Results to Vansah TM - TRUNK
+    steps:
+      # To use this repository's private action,
+      # you must check out the repository
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Vansah TM Test Results Importer
+        uses: ./ # Uses an action in the root directory
+        with:
+          vansahConnectToken: ${{ secrets.VANSAHCONNECTTOKEN }}
+          testFormat: "TESTNG"
+          testPaths:  "./testng-results.xml"
+      # Use the output from the `hello` step
+      - name: Get the output time
+        run: echo "###"
