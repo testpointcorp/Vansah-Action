@@ -4,10 +4,10 @@ author: 'Testpoint'
 inputs:
   vansahConnectToken:
     required: true
-    description: 'Provide a Vansah Connect Token '
+    description: 'Provide a Vansah Connect Token'
   testFormat:
     required: true
-    description: "Provide valid format "TESTNG"
+    description: "Provide valid format 'TESTNG' "
     default: "TESTNG"
   testPaths:
     required: true
@@ -17,5 +17,5 @@ outputs:
   out:
     description: 'Will Output the Message on success/failure'
 runs:
-  using: 'node16'
+  using: 'node18'
   main: 'dist/index.js'
