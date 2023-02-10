@@ -27,10 +27,8 @@
   uses: testpointcorp/vansah-action@{latest-release}
   with:
     vansahtoken: ${{ secrets.vansahtoken }}
-    testFormat: "junit"
+    testFormat: "TESTNG"
     testPaths: "**/test/*.xml"
-    issueKey: "TEST-1"
-    comment: "BUILD ID#"
 ```
 
 </p>
@@ -38,28 +36,8 @@
 
 
 ### Supports
-TestNG, Junit, Nunit 
+TestNG
   
-### Action outputs
-
-After action execution it will return helpful information.
-
-```yml
-# ${{steps.outputs.count}}
-${{steps.outputs.count}}
-```
-
-A full set list of possible output values for this action.
-
-
-| **Output**      | **Description**                        |
-|-----------------|----------------------------------------|
-| count           | The count of imported files.           |
-| completed       | The count of completed imports.        |
-| failed          | The count of failed imports.           |
-| testExecKey     | The key of the created test execution. |
-
-
 ## Vansah
 
 - [Vansah](http://vansah.com/)
