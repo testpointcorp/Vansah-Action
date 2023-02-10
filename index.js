@@ -6,14 +6,14 @@ const vansahConnectToken = core.getInput('vansahConnectToken');
 const testFormat = core.getInput('testFormat');
 const testPaths = core.getInput('testPaths');
 
-const apiUrl = "";
-const nodeApiVersion = "";
+const apiUrl = "https://vtrunk.vansahnode.app";
+const nodeApiVersion = "v1";
 
 
 let bodyFormData = new FormData();
 bodyFormData.append('testFormat', testFormat);
 bodyFormData.append('testPaths', testPaths);
-console.log(bodyFormData);
+//console.log(bodyFormData);
 
 
 
