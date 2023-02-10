@@ -2,21 +2,15 @@ name: 'vansah-action'
 description: 'GitHub action to import test results into "Vansah for Jira" - A complete Test Management tool for Jira.'
 author: 'Testpoint'
 inputs:
-  vansahToken:
+  vansahConnectToken:
     required: true
-    description: 'Provide a unique vansah token to submit the reports'
+    description: 'Provide a Vansah Connect Token '
   testFormat:
-    required: false
-    description: 'Provide valid format such as "TestNg, Junit, Nunit"'
+    required: true
+    description: "Provide valid format "TestNG"
   testPaths:
     required: true
     description: 'Provide Test Report Path'
-  Issue_TestFolders:
-    required: true
-    description: 'Provide cycle information'
-  comment:
-    required: true
-    description: 'Provide comment'
   
 outputs:
   out:
