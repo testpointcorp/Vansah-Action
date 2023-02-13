@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-13T11:48:02 IST" name="Suite" finished-at="2023-02-13T11:48:02 IST" duration-ms="84">
+  <suite started-at="2023-02-10T19:52:47 IST" name="Suite" finished-at="2023-02-10T19:52:47 IST" duration-ms="52">
     <groups>
     </groups>
-    <test started-at="2023-02-13T11:48:02 IST" name="Test" finished-at="2023-02-13T11:48:02 IST" duration-ms="84">
+    <test started-at="2023-02-10T19:52:47 IST" name="Test" finished-at="2023-02-10T19:52:47 IST" duration-ms="52">
       <class name="VansahTest">
-        <test-method signature="Test_01()[pri:0, instance:VansahTest@35aea049, attributes: &lt;name: Case Key, value:[SM-C1]&gt;, &lt;name: Tested Issue, value:[SM-1]&gt;, &lt;name: Tested Sprint, value:[SM Sprint 1]&gt;]" started-at="2023-02-13T11:48:02 IST" name="Test_01" finished-at="2023-02-13T11:48:02 IST" duration-ms="5" status="PASS">
+        <test-method signature="Test_01()[pri:0, instance:VansahTest@35aea049, attributes: &lt;name: Case Key, value:[SM-C1]&gt;, &lt;name: Tested Issue, value:[SM-1]&gt;, &lt;name: Tested Sprint, value:[SM Sprint 1]&gt;]" started-at="2023-02-10T19:52:47 IST" name="Test_01" finished-at="2023-02-10T19:52:47 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
           <custom-attributes>
@@ -34,7 +34,7 @@
             </custom-attribute>
           </custom-attributes>
         </test-method> <!-- Test_01 -->
-        <test-method signature="Test_02()[pri:0, instance:VansahTest@35aea049, attributes: &lt;name: Case Key, value:[SM-C11]&gt;, &lt;name: Tested Issue, value:[SM-1]&gt;, &lt;name: Tested Sprint, value:[SM Sprint 1]&gt;]" started-at="2023-02-13T11:48:02 IST" name="Test_02" finished-at="2023-02-13T11:48:02 IST" duration-ms="1" status="PASS">
+        <test-method signature="Test_02()[pri:0, instance:VansahTest@35aea049, attributes: &lt;name: Case Key, value:[SM-C11]&gt;, &lt;name: Tested Issue, value:[SM-1]&gt;, &lt;name: Tested Sprint, value:[SM Sprint 1]&gt;]" started-at="2023-02-10T19:52:47 IST" name="Test_02" finished-at="2023-02-10T19:52:47 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
           <custom-attributes>
@@ -61,7 +61,7 @@
             </custom-attribute>
           </custom-attributes>
         </test-method> <!-- Test_02 -->
-        <test-method signature="Test_03()[pri:0, instance:VansahTest@35aea049, attributes: &lt;name: Case Key, value:[STM2-C37]&gt;, &lt;name: Tested Issue, value:[STM2-1]&gt;, &lt;name: Tested Sprint, value:[STM2 Sprint 1]&gt;]" started-at="2023-02-13T11:48:02 IST" name="Test_03" finished-at="2023-02-13T11:48:02 IST" duration-ms="1" status="PASS">
+        <test-method signature="Test_03()[pri:0, instance:VansahTest@35aea049, attributes: &lt;name: Case Key, value:[SM-C21]&gt;, &lt;name: Tested Issue, value:[SM-1]&gt;, &lt;name: Tested Sprint, value:[SM Sprint 1]&gt;]" started-at="2023-02-10T19:52:47 IST" name="Test_03" finished-at="2023-02-10T19:52:47 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
           <custom-attributes>
@@ -69,74 +69,26 @@
               <name value="Case Key">
               </name>
               <value>
-                <![CDATA[[STM2-C37]]]>
+                <![CDATA[[SM-C21]]]>
               </value>
             </custom-attribute>
             <custom-attribute>
               <name value="Tested Issue">
               </name>
               <value>
-                <![CDATA[[STM2-1]]]>
+                <![CDATA[[SM-1]]]>
               </value>
             </custom-attribute>
             <custom-attribute>
               <name value="Tested Sprint">
               </name>
               <value>
-                <![CDATA[[STM2 Sprint 1]]]>
+                <![CDATA[[SM Sprint 1]]]>
               </value>
             </custom-attribute>
           </custom-attributes>
         </test-method> <!-- Test_03 -->
-        <test-method signature="Test_04()[pri:0, instance:VansahTest@35aea049, attributes: &lt;name: Case Key, value:[DT-C20]&gt;, &lt;name: Tested Issue, value:[SM-1]&gt;, &lt;name: Tested Sprint, value:[SM Sprint 1]&gt;]" started-at="2023-02-13T11:48:02 IST" name="Test_04" finished-at="2023-02-13T11:48:02 IST" duration-ms="10" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [1] but found [0]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [1] but found [0]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-at org.testng.Assert.assertEquals(Assert.java:131)
-at org.testng.Assert.assertEquals(Assert.java:1240)
-at org.testng.Assert.assertEquals(Assert.java:1274)
-at VansahTest.Test_04(VansahTest.java:48)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
-at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="Test_04()[pri:0, instance:VansahTest@35aea049, attributes: &lt;name: Case Key, value:[SM-C2]&gt;, &lt;name: Tested Issue, value:[SM-1]&gt;, &lt;name: Tested Sprint, value:[SM Sprint 1]&gt;]" started-at="2023-02-10T19:52:47 IST" name="Test_04" finished-at="2023-02-10T19:52:47 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
           <custom-attributes>
@@ -144,7 +96,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
               <name value="Case Key">
               </name>
               <value>
-                <![CDATA[[DT-C20]]]>
+                <![CDATA[[SM-C2]]]>
               </value>
             </custom-attribute>
             <custom-attribute>
@@ -163,7 +115,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
             </custom-attribute>
           </custom-attributes>
         </test-method> <!-- Test_04 -->
-        <test-method signature="Test_05()[pri:0, instance:VansahTest@35aea049, attributes: &lt;name: Case Key, value:[SM-C12]&gt;, &lt;name: Tested Issue, value:[SM-1]&gt;, &lt;name: Tested Sprint, value:[SM Sprint 1]&gt;]" started-at="2023-02-13T11:48:02 IST" name="Test_05" finished-at="2023-02-13T11:48:02 IST" duration-ms="1" status="FAIL">
+        <test-method signature="Test_05()[pri:0, instance:VansahTest@35aea049, attributes: &lt;name: Case Key, value:[SM-C12]&gt;, &lt;name: Tested Issue, value:[SM-1]&gt;, &lt;name: Tested Sprint, value:[SM Sprint 1]&gt;]" started-at="2023-02-10T19:52:47 IST" name="Test_05" finished-at="2023-02-10T19:52:47 IST" duration-ms="9" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [1] but found [0]]]>
@@ -238,7 +190,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
             </custom-attribute>
           </custom-attributes>
         </test-method> <!-- Test_05 -->
-        <test-method signature="Test_06()[pri:0, instance:VansahTest@35aea049, attributes: &lt;name: Case Key, value:[SM-C27]&gt;, &lt;name: Tested Issue, value:[SM-1]&gt;, &lt;name: Tested Sprint, value:[SM Sprint 1]&gt;]" started-at="2023-02-13T11:48:02 IST" name="Test_06" finished-at="2023-02-13T11:48:02 IST" duration-ms="1" status="PASS">
+        <test-method signature="Test_06()[pri:0, instance:VansahTest@35aea049, attributes: &lt;name: Case Key, value:[SM-C27]&gt;, &lt;name: Tested Issue, value:[SM-1]&gt;, &lt;name: Tested Sprint, value:[SM Sprint 1]&gt;]" started-at="2023-02-10T19:52:47 IST" name="Test_06" finished-at="2023-02-10T19:52:47 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
           <custom-attributes>
