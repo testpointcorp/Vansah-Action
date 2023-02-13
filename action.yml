@@ -14,7 +14,7 @@ inputs:
     description: 'Provide Test Report Path'
   
 outputs:
-  out:
+  message:
     description: 'Will Output the Message on success/failure'
 runs:
   using: 'node16'
