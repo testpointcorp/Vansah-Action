@@ -26,6 +26,6 @@ axios({
   .then(function (response) {
     console.log(response.data.message);
   })
-  .catch(function (err) {
+  .catch(function (error) {
     console.error(error.response.data.message);
   });
