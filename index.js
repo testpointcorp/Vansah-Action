@@ -14,7 +14,6 @@ const nodeApiVersion = "v1";
 let bodyFormData = new FormData();
 bodyFormData.append('testFormat', testFormat);
 bodyFormData.append('testPaths', fs.createReadStream(testPaths));
-//console.log(bodyFormData);
 
 
 
@@ -28,5 +27,5 @@ axios({
     console.log(response.data.message);
   })
   .catch(function (response) {
-    console.log(response.data.message);
+    console.log(response.message);
   });
