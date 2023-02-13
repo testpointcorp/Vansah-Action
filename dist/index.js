@@ -7830,7 +7830,6 @@ const nodeApiVersion = "v1";
 let bodyFormData = new FormData();
 bodyFormData.append('testFormat', testFormat);
 bodyFormData.append('testPaths', fs.createReadStream(testPaths));
-//console.log(bodyFormData);
 
 
 
@@ -7841,10 +7840,10 @@ axios({
     headers: { "Authorization": vansahConnectToken , "Content-Type": "multipart/form-data" },
   })
   .then(function (response) {
-    console.log(response.data.message);
+    console.log(response.message);
   })
   .catch(function (response) {
-    console.log(response.data.message);
+    console.log(response.message);
   });
 })();
 
