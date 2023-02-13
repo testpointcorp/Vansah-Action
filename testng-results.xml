@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-10T19:52:47 IST" name="Suite" finished-at="2023-02-10T19:52:47 IST" duration-ms="52">
+  <suite started-at="2023-02-04T11:20:13 IST" name="Suite" finished-at="2023-02-04T11:20:13 IST" duration-ms="56">
     <groups>
     </groups>
-    <test started-at="2023-02-10T19:52:47 IST" name="Test" finished-at="2023-02-10T19:52:47 IST" duration-ms="52">
+    <test started-at="2023-02-04T11:20:13 IST" name="Test" finished-at="2023-02-04T11:20:13 IST" duration-ms="56">
       <class name="VansahTest">
-        <test-method signature="Test_01()[pri:0, instance:VansahTest@35aea049, attributes: &lt;name: Case Key, value:[SM-C1]&gt;, &lt;name: Tested Issue, value:[SM-1]&gt;, &lt;name: Tested Sprint, value:[SM Sprint 1]&gt;]" started-at="2023-02-10T19:52:47 IST" name="Test_01" finished-at="2023-02-10T19:52:47 IST" duration-ms="6" status="PASS">
+        <test-method signature="Test_01()[pri:0, instance:VansahTest@35aea049, attributes: &lt;name: Case Key, value:[DEL-C53]&gt;, &lt;name: Tested Issue, value:[DEL-1]&gt;]" started-at="2023-02-04T11:20:13 IST" name="Test_01" finished-at="2023-02-04T11:20:13 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
           <custom-attributes>
@@ -15,26 +15,19 @@
               <name value="Case Key">
               </name>
               <value>
-                <![CDATA[[SM-C1]]]>
+                <![CDATA[[DEL-C53]]]>
               </value>
             </custom-attribute>
             <custom-attribute>
               <name value="Tested Issue">
               </name>
               <value>
-                <![CDATA[[SM-1]]]>
-              </value>
-            </custom-attribute>
-            <custom-attribute>
-              <name value="Tested Sprint">
-              </name>
-              <value>
-                <![CDATA[[SM Sprint 1]]]>
+                <![CDATA[[DEL-1]]]>
               </value>
             </custom-attribute>
           </custom-attributes>
         </test-method> <!-- Test_01 -->
-        <test-method signature="Test_02()[pri:0, instance:VansahTest@35aea049, attributes: &lt;name: Case Key, value:[SM-C11]&gt;, &lt;name: Tested Issue, value:[SM-1]&gt;, &lt;name: Tested Sprint, value:[SM Sprint 1]&gt;]" started-at="2023-02-10T19:52:47 IST" name="Test_02" finished-at="2023-02-10T19:52:47 IST" duration-ms="0" status="PASS">
+        <test-method signature="Test_02()[pri:0, instance:VansahTest@35aea049, attributes: &lt;name: Case Key, value:[DEL-C52]&gt;, &lt;name: Tested Issue, value:[DEL-1]&gt;]" started-at="2023-02-04T11:20:13 IST" name="Test_02" finished-at="2023-02-04T11:20:13 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
           <custom-attributes>
@@ -42,26 +35,19 @@
               <name value="Case Key">
               </name>
               <value>
-                <![CDATA[[SM-C11]]]>
+                <![CDATA[[DEL-C52]]]>
               </value>
             </custom-attribute>
             <custom-attribute>
               <name value="Tested Issue">
               </name>
               <value>
-                <![CDATA[[SM-1]]]>
-              </value>
-            </custom-attribute>
-            <custom-attribute>
-              <name value="Tested Sprint">
-              </name>
-              <value>
-                <![CDATA[[SM Sprint 1]]]>
+                <![CDATA[[DEL-1]]]>
               </value>
             </custom-attribute>
           </custom-attributes>
         </test-method> <!-- Test_02 -->
-        <test-method signature="Test_03()[pri:0, instance:VansahTest@35aea049, attributes: &lt;name: Case Key, value:[SM-C21]&gt;, &lt;name: Tested Issue, value:[SM-1]&gt;, &lt;name: Tested Sprint, value:[SM Sprint 1]&gt;]" started-at="2023-02-10T19:52:47 IST" name="Test_03" finished-at="2023-02-10T19:52:47 IST" duration-ms="1" status="PASS">
+        <test-method signature="Test_03()[pri:0, instance:VansahTest@35aea049, attributes: &lt;name: Case Key, value:[DEL-C51]&gt;, &lt;name: Tested Issue, value:[DEL-1]&gt;]" started-at="2023-02-04T11:20:13 IST" name="Test_03" finished-at="2023-02-04T11:20:13 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
           <custom-attributes>
@@ -69,26 +55,19 @@
               <name value="Case Key">
               </name>
               <value>
-                <![CDATA[[SM-C21]]]>
+                <![CDATA[[DEL-C51]]]>
               </value>
             </custom-attribute>
             <custom-attribute>
               <name value="Tested Issue">
               </name>
               <value>
-                <![CDATA[[SM-1]]]>
-              </value>
-            </custom-attribute>
-            <custom-attribute>
-              <name value="Tested Sprint">
-              </name>
-              <value>
-                <![CDATA[[SM Sprint 1]]]>
+                <![CDATA[[DEL-1]]]>
               </value>
             </custom-attribute>
           </custom-attributes>
         </test-method> <!-- Test_03 -->
-        <test-method signature="Test_04()[pri:0, instance:VansahTest@35aea049, attributes: &lt;name: Case Key, value:[SM-C2]&gt;, &lt;name: Tested Issue, value:[SM-1]&gt;, &lt;name: Tested Sprint, value:[SM Sprint 1]&gt;]" started-at="2023-02-10T19:52:47 IST" name="Test_04" finished-at="2023-02-10T19:52:47 IST" duration-ms="1" status="PASS">
+        <test-method signature="Test_04()[pri:0, instance:VansahTest@35aea049, attributes: &lt;name: Case Key, value:[DEL-C50]&gt;, &lt;name: Tested Issue, value:[DEL-1]&gt;]" started-at="2023-02-04T11:20:13 IST" name="Test_04" finished-at="2023-02-04T11:20:13 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
           <custom-attributes>
@@ -96,26 +75,19 @@
               <name value="Case Key">
               </name>
               <value>
-                <![CDATA[[SM-C2]]]>
+                <![CDATA[[DEL-C50]]]>
               </value>
             </custom-attribute>
             <custom-attribute>
               <name value="Tested Issue">
               </name>
               <value>
-                <![CDATA[[SM-1]]]>
-              </value>
-            </custom-attribute>
-            <custom-attribute>
-              <name value="Tested Sprint">
-              </name>
-              <value>
-                <![CDATA[[SM Sprint 1]]]>
+                <![CDATA[[DEL-1]]]>
               </value>
             </custom-attribute>
           </custom-attributes>
         </test-method> <!-- Test_04 -->
-        <test-method signature="Test_05()[pri:0, instance:VansahTest@35aea049, attributes: &lt;name: Case Key, value:[SM-C12]&gt;, &lt;name: Tested Issue, value:[SM-1]&gt;, &lt;name: Tested Sprint, value:[SM Sprint 1]&gt;]" started-at="2023-02-10T19:52:47 IST" name="Test_05" finished-at="2023-02-10T19:52:47 IST" duration-ms="9" status="FAIL">
+        <test-method signature="Test_05()[pri:0, instance:VansahTest@35aea049, attributes: &lt;name: Case Key, value:[DEL-C49]&gt;, &lt;name: Tested Issue, value:[DEL-1]&gt;]" started-at="2023-02-04T11:20:13 IST" name="Test_05" finished-at="2023-02-04T11:20:13 IST" duration-ms="5" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [1] but found [0]]]>
@@ -128,7 +100,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:1240)
 at org.testng.Assert.assertEquals(Assert.java:1274)
-at VansahTest.Test_05(VansahTest.java:60)
+at VansahTest.Test_05(VansahTest.java:55)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -171,26 +143,19 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
               <name value="Case Key">
               </name>
               <value>
-                <![CDATA[[SM-C12]]]>
+                <![CDATA[[DEL-C49]]]>
               </value>
             </custom-attribute>
             <custom-attribute>
               <name value="Tested Issue">
               </name>
               <value>
-                <![CDATA[[SM-1]]]>
-              </value>
-            </custom-attribute>
-            <custom-attribute>
-              <name value="Tested Sprint">
-              </name>
-              <value>
-                <![CDATA[[SM Sprint 1]]]>
+                <![CDATA[[DEL-1]]]>
               </value>
             </custom-attribute>
           </custom-attributes>
         </test-method> <!-- Test_05 -->
-        <test-method signature="Test_06()[pri:0, instance:VansahTest@35aea049, attributes: &lt;name: Case Key, value:[SM-C27]&gt;, &lt;name: Tested Issue, value:[SM-1]&gt;, &lt;name: Tested Sprint, value:[SM Sprint 1]&gt;]" started-at="2023-02-10T19:52:47 IST" name="Test_06" finished-at="2023-02-10T19:52:47 IST" duration-ms="1" status="PASS">
+        <test-method signature="Test_06()[pri:0, instance:VansahTest@35aea049, attributes: &lt;name: Case Key, value:[DEL-C3]&gt;, &lt;name: Tested Issue, value:[DEL-1]&gt;]" started-at="2023-02-04T11:20:13 IST" name="Test_06" finished-at="2023-02-04T11:20:13 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
           <custom-attributes>
@@ -198,21 +163,14 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
               <name value="Case Key">
               </name>
               <value>
-                <![CDATA[[SM-C27]]]>
+                <![CDATA[[DEL-C3]]]>
               </value>
             </custom-attribute>
             <custom-attribute>
               <name value="Tested Issue">
               </name>
               <value>
-                <![CDATA[[SM-1]]]>
-              </value>
-            </custom-attribute>
-            <custom-attribute>
-              <name value="Tested Sprint">
-              </name>
-              <value>
-                <![CDATA[[SM Sprint 1]]]>
+                <![CDATA[[DEL-1]]]>
               </value>
             </custom-attribute>
           </custom-attributes>
