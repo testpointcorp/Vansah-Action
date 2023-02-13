@@ -24,8 +24,8 @@ axios({
     headers: { "Authorization": vansahConnectToken , "Content-Type": "multipart/form-data" },
   })
   .then(function (response) {
-    console.log(response.message);
+    console.log(response.data.message);
   })
   .catch(function (err) {
-    console.log(err);
+    console.error(response.data.message);
   });
