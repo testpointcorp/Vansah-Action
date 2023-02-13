@@ -7840,7 +7840,7 @@ axios({
     headers: { "Authorization": vansahConnectToken , "Content-Type": "multipart/form-data" },
   })
   .then(function (response) {
-    core.setOutput("message: ",response.data.message);
+    console.log(response.data.message);
   })
   .catch(function (error) {
     core.setFailed(error.response.data.message);
