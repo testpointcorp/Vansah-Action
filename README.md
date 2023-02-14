@@ -41,6 +41,8 @@ TestNG
 ## Vansah
 
 - {{apiUrl}}/api/{{nodeApiVersion}}/testCase/import/XML
+  <img src="https://user-images.githubusercontent.com/95007067/218648174-5db3ff59-8a5f-4c2d-b083-997541acf593.png" style="width:1000px"/>
+
 
 ## Developed By
 
