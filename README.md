@@ -26,7 +26,7 @@
 - name: "Import results to Vansah"
   uses: testpointcorp/vansah-action@{latest-release}
   with:
-    vansahtoken: ${{ secrets.vansahtoken }}
+    vansahConnectToken: ${{ secrets.vansahConnectToken }}
     testFormat: "TESTNG"
     testPaths: "**/test/*.xml"
 ```
@@ -40,13 +40,11 @@ TestNG
   
 ## Vansah
 
-- [Vansah](http://vansah.com/)
-- api info ---
+- {{apiUrl}}/api/{{nodeApiVersion}}/testCase/import/XML
 
 ## Developed By
 
 * Testpoint corp. (https://testpoint.com.au/)
 
-## License
 
 
