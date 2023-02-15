@@ -7823,7 +7823,7 @@ const vansahConnectToken = core.getInput('vansahConnectToken');
 const testFormat = core.getInput('testFormat');
 const testPaths = core.getInput('testPaths');
 
-const apiUrl = "https://vtrunk.vansahnode.app";
+const apiUrl = "https://prod.vansahnode.app";
 const nodeApiVersion = "v1";
 
 
