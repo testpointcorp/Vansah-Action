@@ -3,7 +3,7 @@ on: [push]
 jobs:
   TRUNK_TEST:
     runs-on: ubuntu-latest
-    name: Sending Results to Vansah TM - TRUNK
+    name: Sending Results to Vansah TM - PROD
     steps:
       # To use this repository's private action,
       # you must check out the repository
