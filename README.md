@@ -35,10 +35,9 @@
 </details>
 
 
-### How to Generate VansahConnectToken
-    
-    
-<a href="https://vansahapp.atlassian.net/wiki/spaces/VANSAH/pages/33872/Generate+a+Vansah+API+Token+From+Jira" >Guide to generate</a>
+### How to Generate VansahAPIToken
+
+<a href="https://docs.vansah.com/docs-base/generate-a-vansah-api-token-from-jira/" >Open Help Doc</a>
 
 ### Supports
 TestNG
@@ -51,7 +50,7 @@ TestNG
 
 ## Developed By
 
-* Testpoint corp. (https://testpoint.com.au/)
+* Testpoint (https://testpoint.com.au/)
 
 
 
