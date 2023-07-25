@@ -2,7 +2,7 @@
   <img src="https://vansah.com/wp-content/uploads/2022/06/512x512.png" style="width:150px"/>
 </div>
 <h1 align="center">
-  vansah-action
+  Vansah Action
 </h1>
 
 <p align="center">
