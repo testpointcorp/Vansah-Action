@@ -37,7 +37,7 @@
 
 ### How to Generate VansahAPIToken
 
-<a href="https://docs.vansah.com/docs-base/generate-a-vansah-api-token-from-jira/" >Open Help Doc</a>
+<a href="https://help.vansah.com/en/articles/9824979-generate-a-vansah-api-token-from-jira" >Open Help Doc</a>
 
 ### Supports
 TestNG
