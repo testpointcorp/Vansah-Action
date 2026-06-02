@@ -7,8 +7,8 @@ const vansahConnectToken = core.getInput('vansahConnectToken');
 const testFormat = core.getInput('testFormat');
 const testPaths = core.getInput('testPaths');
 
-const apiUrl = "https://prod.vansahnode.app";
-const nodeApiVersion = "v1";
+const apiUrl = "https://prod.vansah.com";
+const nodeApiVersion = "v2";
 
 
 let bodyFormData = new FormData();
